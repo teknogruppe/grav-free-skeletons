@@ -1,0 +1,52 @@
+1636867303
+a:2:{s:7:"content";s:2329:"<!-- 
+================================================== 
+    Clients Section Start
+================================================== -->
+<section id="clients">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h2 class="subtitle text-center wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay=".3s">Our Happy Clients</h2>
+        <p class="subtitle-des text-center wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay=".5s">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, error.</p>
+        <div id="clients-logo" class="owl-carousel">
+                    <div>
+            <img src="/grav-skeleton-timer/images/7/2/0/8/9/72089b85bae10a72cd96f5350fdceeb84c672916-logo-1.jpg" alt="">
+          </div>
+                    <div>
+            <img src="/grav-skeleton-timer/images/7/3/9/4/5/739452d2b7ce1d2f58effbe8fa5598b6afd75634-logo-2.jpg" alt="">
+          </div>
+                    <div>
+            <img src="/grav-skeleton-timer/images/d/b/2/e/5/db2e54453792d25e9c679ae40da6e76b63ab141f-logo-3.jpg" alt="">
+          </div>
+                    <div>
+            <img src="/grav-skeleton-timer/images/4/d/9/b/4/4d9b45fcc9b56343daf78f5884cf1e0fe6e347b4-logo-4.jpg" alt="">
+          </div>
+                    <div>
+            <img src="/grav-skeleton-timer/images/d/0/0/9/5/d009585427be57c2c14d7b0b98a31fae550f1e45-logo-5.jpg" alt="">
+          </div>
+                    <div>
+            <img src="/grav-skeleton-timer/images/7/2/0/8/9/72089b85bae10a72cd96f5350fdceeb84c672916-logo-1.jpg" alt="">
+          </div>
+                    <div>
+            <img src="/grav-skeleton-timer/images/7/3/9/4/5/739452d2b7ce1d2f58effbe8fa5598b6afd75634-logo-2.jpg" alt="">
+          </div>
+                    <div>
+            <img src="/grav-skeleton-timer/images/d/b/2/e/5/db2e54453792d25e9c679ae40da6e76b63ab141f-logo-3.jpg" alt="">
+          </div>
+                    <div>
+            <img src="/grav-skeleton-timer/images/4/d/9/b/4/4d9b45fcc9b56343daf78f5884cf1e0fe6e347b4-logo-4.jpg" alt="">
+          </div>
+                    <div>
+            <img src="/grav-skeleton-timer/images/d/0/0/9/5/d009585427be57c2c14d7b0b98a31fae550f1e45-logo-5.jpg" alt="">
+          </div>
+                  </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+";s:12:"content_meta";N;}

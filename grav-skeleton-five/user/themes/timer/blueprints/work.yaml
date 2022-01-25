@@ -1,0 +1,12 @@
+extends@: default
+
+form:
+  fields:
+    tabs:
+      fields:
+        content:
+          fields:
+            header.short_description: 
+              type: textarea
+              label: THEME.ADMIN.SHORT_DESCRIPTION
+            

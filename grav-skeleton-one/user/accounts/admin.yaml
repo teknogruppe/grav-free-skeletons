@@ -1,0 +1,11 @@
+state: enabled
+email: pezland@yahoo.com
+fullname: 'Jessica Echeverria'
+title: Admin
+access:
+  admin:
+    login: true
+    super: true
+  site:
+    login: true
+hashed_password: $2y$10$/avpYYb1Yl18g4CYWDLdVOFnDD9mtKGLJYsAaoXjHpyQSMA8G3hfi

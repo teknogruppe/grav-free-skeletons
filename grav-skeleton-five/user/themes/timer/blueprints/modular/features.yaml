@@ -1,0 +1,35 @@
+extends@: default
+
+form:
+  fields:
+    tabs:
+      fields:
+        content:
+          fields:
+            header.description: 
+              type: textarea
+              label: THEME.ADMIN.DESCRIPTION
+              rows: 5
+            header.items:
+              type: list
+              label: THEME.ADMIN.ITEMS
+              fields: 
+                .name: 
+                  type: text
+                  label: THEME.ADMIN.NAME
+                .description:
+                  type: textarea
+                  label: THEME.ADMIN.DESCRIPTION
+                  rows: 5
+                .thumb:
+                  type: pagemediaselect
+                  label: THEME.ADMIN.THUMB
+                .alt:
+                  type: text
+                  label: THEME.ADMIN.ALT
+                .image: 
+                  type: pagemediaselect
+                  label: THEME.ADMIN.IMAGE
+                .url:
+                  type: text
+                  label: THEME.ADMIN.URL

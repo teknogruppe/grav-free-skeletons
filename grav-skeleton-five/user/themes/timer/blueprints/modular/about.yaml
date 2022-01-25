@@ -1,0 +1,13 @@
+extends@: default
+
+form:
+  fields:
+    tabs:
+      fields:
+        content:
+          fields:
+            header.image: 
+              type: pagemediaselect
+              label: THEME.ADMIN.IMAGE
+              preview_images: true
+            

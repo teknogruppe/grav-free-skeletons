@@ -1,0 +1,11 @@
+extends@: default
+
+form:
+  fields:
+    tabs:
+      fields:
+        content:
+          fields:
+            header.source: 
+              type: text
+              label: THEME.ADMIN.SOURCE

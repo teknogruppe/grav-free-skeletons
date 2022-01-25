@@ -1,0 +1,32 @@
+extends@: default
+
+form:
+  fields:
+    tabs:
+      fields:
+        content:
+          fields:
+            header.background: 
+              type: pagemediaselect
+              label: THEME.ADMIN.BACKGROUND
+              preview_images: true
+            header.heading: 
+              type: text
+              label: THEME.ADMIN.HEADING
+            header.heading_items: 
+              type: list
+              label: THEME.ADMIN.HEADING_ITEMS
+              fields: 
+                .content: 
+                  type: text
+                  label: THEME.ADMIN.CONTENT
+            header.subheading: 
+              type: text
+              label: THEME.ADMIN.SUBHEADING
+            header.button_url: 
+              type: text
+              label: THEME.ADMIN.BUTTON_URL
+            header.button_label: 
+              type: text
+              label: THEME.ADMIN.BUTTON_LABEL
+

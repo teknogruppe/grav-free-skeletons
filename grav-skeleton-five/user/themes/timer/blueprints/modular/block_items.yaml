@@ -1,0 +1,20 @@
+extends@: default
+
+form:
+  fields:
+    tabs:
+      fields:
+        content:
+          fields:
+            header.items:
+              type: list
+              label: THEME.ADMIN.ITEMS
+              fields: 
+                .title: 
+                  type: text
+                  label: THEME.ADMIN.TITLE
+                .content: 
+                  type: textarea
+                  rows: 5
+                  label: THEME.ADMIN.CONTENT
+                

@@ -1,0 +1,29 @@
+<section id="service-page" class="pages service-page">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="block">
+          <h2 class="subtitle wow fadeInUp animated" data-wow-delay=".3s" data-wow-duration="500ms">{{ page.header.title|raw }}</h2>
+          <p class="subtitle-des wow fadeInUp animated" data-wow-delay=".5s" data-wow-duration="500ms">{{ page.content|raw }}</p>
+          <div class="row service-parts">
+            {% for service in page.header.services %}
+            <div class="col-md-6">
+              <div class="block wow fadeInUp animated" data-wow-duration="400ms" data-wow-delay="600ms">
+                <i class="{{ service.icon }}"></i>
+                <h4>{{ service.title|raw }}</h4>
+                <p>{{ service.content|raw }}</p>
+              </div>
+            </div>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="block">
+          <img class="img-responsive" src="{{ page.media.images[page.header.image].cache.url() }}" alt="{{ page.header.image_alt }}">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,24 @@
+<!--=============================
+=            Gallery            =
+==============================-->
+<section id="gallery" class="gallery">
+  <div class="container">
+    <div class="row">
+      {% for item in page.header.items %}
+      <div class="col-sm-4 col-xs-12">
+        <figure class="wow fadeInLeft animated portfolio-item animated" data-wow-duration="500ms" data-wow-delay="{{ loop.index * 300 }}ms" style="visibility: visible; animation-duration: 300ms; -webkit-animation-duration: 300ms; animation-delay: {{ loop.index * 300 }}ms; -webkit-animation-delay: 0ms; animation-name: fadeInLeft; -webkit-animation-name: fadeInLeft;">
+          <div class="img-wrapper">
+            <img src="{{ page.media.images[item.thumb].cache.url() }}" class="img-responsive" alt="{{ item.alt }}">
+            <div class="overlay">
+              <div class="buttons">
+                <a rel="gallery" class="fancybox" href="{{ page.media.images[item.image].cache.url() }}">{{ 'THEME.SITE.DEMO'|t }}</a>
+              </div>
+            </div>
+          </div>
+        </figure>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>   
+

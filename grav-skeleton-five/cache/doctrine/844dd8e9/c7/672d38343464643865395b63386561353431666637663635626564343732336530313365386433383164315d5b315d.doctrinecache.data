@@ -1,0 +1,49 @@
+1636868545
+a:2:{s:7:"content";s:2606:"<section id="service-page" class="pages service-page">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="block">
+          <h2 class="subtitle wow fadeInUp animated" data-wow-delay=".3s" data-wow-duration="500ms">What We Love To Do</h2>
+          <p class="subtitle-des wow fadeInUp animated" data-wow-delay=".5s" data-wow-duration="500ms"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis porro recusandae non quibusdam iure adipisci.</p></p>
+          <div class="row service-parts">
+                        <div class="col-md-6">
+              <div class="block wow fadeInUp animated" data-wow-duration="400ms" data-wow-delay="600ms">
+                <i class="ion-ios-paper-outline"></i>
+                <h4>BRANDING</h4>
+                <p>Veritatis eligendi, dignissimos. Porta fermentum mus aute pulvinar earum minus platea massa feugiat rutrum urna facilisi ipsameum.</p>
+              </div>
+            </div>
+                        <div class="col-md-6">
+              <div class="block wow fadeInUp animated" data-wow-duration="400ms" data-wow-delay="600ms">
+                <i class="ion-ios-pint-outline"></i>
+                <h4>DESIGN</h4>
+                <p>Veritatis eligendi, dignissimos. Porta fermentum mus aute pulvinar earum minus platea massa feugiat rutrum urna facilisi ipsameum.</p>
+              </div>
+            </div>
+                        <div class="col-md-6">
+              <div class="block wow fadeInUp animated" data-wow-duration="400ms" data-wow-delay="600ms">
+                <i class="ion-ios-paper-outline"></i>
+                <h4>DEVELOPMENT</h4>
+                <p>Veritatis eligendi, dignissimos. Porta fermentum mus aute pulvinar earum minus platea massa feugiat rutrum urna facilisi ipsameum.</p>
+              </div>
+            </div>
+                        <div class="col-md-6">
+              <div class="block wow fadeInUp animated" data-wow-duration="400ms" data-wow-delay="600ms">
+                <i class="ion-ios-paper-outline"></i>
+                <h4>THEMEING</h4>
+                <p>Veritatis eligendi, dignissimos. Porta fermentum mus aute pulvinar earum minus platea massa feugiat rutrum urna facilisi ipsameum.</p>
+              </div>
+            </div>
+                      </div>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="block">
+          <img class="img-responsive" src="/grav-skeleton-timer/images/6/4/a/b/8/64ab8ebb1ea46e4992be814c538f250a4a5880f2-team.jpg" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>";s:12:"content_meta";N;}

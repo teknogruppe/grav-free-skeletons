@@ -1,0 +1,22 @@
+<!--
+==================================================
+About Section Start
+================================================== -->
+<section id="about">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-sm-6">
+        <div class="block wow fadeInLeft" data-wow-delay=".3s" data-wow-duration="500ms">
+          <h2>{{ page.title|raw }}</h2>
+          {{ page.content|raw }}
+        </div>
+      </div>
+      
+      <div class="col-md-6 col-sm-6">
+        <div class="block wow fadeInRight" data-wow-delay=".3s" data-wow-duration="500ms">
+          <img src="{{ page.media.images[page.header.image].cache.url() }}" alt="{{ page.title }}">
+        </div>
+      </div>
+    </div>
+  </div>
+</section> <!-- /#about -->

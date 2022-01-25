@@ -1,0 +1,37 @@
+extends@: default
+
+form:
+  fields:
+    tabs:
+      fields:
+        content:
+          fields:
+            header.members:
+              type: list
+              label: THEME.ADMIN.MEMBERS
+              fields: 
+                .image: 
+                  type: pagemediaselect
+                  label: THEME.ADMIN.IMAGE
+                  preview_images: true
+                .name: 
+                  type: text
+                  label: THEME.ADMIN.NAME
+                .designation: 
+                  type: text
+                  label: THEME.ADMIN.DESIGNATION
+                .about: 
+                  type: text
+                  label: THEME.ADMIN.ABOUT
+                .facebook: 
+                  type: text
+                  label: THEME.ADMIN.FACEBOOK
+                .twitter: 
+                  type: text
+                  label: THEME.ADMIN.TWITTER
+                .linkedin: 
+                  type: text
+                  label: THEME.ADMIN.LINKEDIN
+                .googleplus: 
+                  type: text
+                  label: THEME.ADMIN.GOOGLEPLUS

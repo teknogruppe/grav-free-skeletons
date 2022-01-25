@@ -1,0 +1,15 @@
+extends@: default
+
+form:
+  fields:
+    tabs:
+      fields:
+        content:
+          fields:
+            header.button_url: 
+              type: text
+              label: THEME.ADMIN.BUTTON_URL
+            header.button_label: 
+              type: text
+              label: THEME.ADMIN.BUTTON_LABEL
+

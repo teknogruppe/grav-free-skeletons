@@ -1,0 +1,23 @@
+<!--
+==================================================
+Call To Action Section Start
+================================================== -->
+{% set title = theme_config.cta.title ? theme_config.cta.title : page.title %}
+{% set content = theme_config.cta.content ? theme_config.cta.content : page.content %}
+{% set button_url = theme_config.cta.button_url ? theme_config.cta.button_url : page.header.button_url %}
+{% set button_label = theme_config.cta.button_label ? theme_config.cta.button_label : page.header.button_label %}
+
+<section id="call-to-action">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+          <h2 class="title wow fadeInDown" data-wow-delay=".3s" data-wow-duration="500ms">{{ title }}</h2>
+            {{ content|striptags('<b><strong><br><i><em><blockquote>')|raw }}
+          </p>
+          <a href="{{ button_url }}" class="btn btn-default btn-contact wow fadeInDown" data-wow-delay=".7s" data-wow-duration="500ms">{{ button_label }}</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,39 @@
+extends@: default
+
+form:
+  fields:
+    tabs:
+      fields:
+        map:
+          type: tab
+          title: THEME.ADMIN.MAP
+          fields: 
+            header.map.title:
+              type: text
+              label: THEME.ADMIN.TITLE
+            header.map.content:
+              type: textarea
+              label: THEME.ADMIN.CONTENT
+            header.map.iframe:
+              type: textarea
+              label: THEME.ADMIN.IFRAME
+              rows: 5
+        items: 
+          type: tab
+          title: THEME.ADMIN.ITEMS
+          fields: 
+            header.items: 
+              type: list
+              label: THEME.ADMIN.ITEMS
+              fields: 
+                .classes: 
+                  type: text
+                  label: THEME.ADMIN.CLASSES
+                .icon: 
+                  type: text
+                  label: THEME.ADMIN.ICON
+                .content: 
+                  type: textarea
+                  label: THEME.ADMIN.CONTENT
+
+            

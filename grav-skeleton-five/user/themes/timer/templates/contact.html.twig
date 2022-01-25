@@ -1,0 +1,46 @@
+{% extends 'partials/base.html.twig' %}
+
+{% block content %}
+  <section id="contact-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="block">
+            <h2 class="subtitle wow fadeInDown" data-wow-duration="500ms" data-wow-delay=".3s">{{ page.title|raw }}</h2>
+            <p class="subtitle-des wow fadeInDown" data-wow-duration="500ms" data-wow-delay=".5s">
+              {{ page.content|striptags('<b><strong><br><i><em><blockquote>')|raw }}
+            </p>
+            <div class="contact-form">
+              {% include "forms/contact.html.twig" with { form: forms("contact"), page: page} %}
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="map-area">
+            <h2 class="subtitle  wow fadeInDown" data-wow-duration="500ms" data-wow-delay=".3s">{{ page.header.map.title|raw }}</h2>
+            <p class="subtitle-des wow fadeInDown" data-wow-duration="500ms" data-wow-delay=".5s">
+              {{ page.header.map.content|raw }}
+            </p>
+            <div class="map">
+              {{ page.header.map.iframe|raw }}
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row address-details">
+        {% for item in page.header.items %}
+        <div class="col-md-3">
+          <div class="{{ item.classes }}" data-wow-duration="500ms" data-wow-delay=-"{{ loop.index * 0.2 + 0.3 }}s">
+            <i class="{{ item.icon }}"></i>
+            <h5>{{ item.content|raw }}</h5>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </section>  
+
+  {% include 'partials/cta.html.twig' %}
+{% endblock %}

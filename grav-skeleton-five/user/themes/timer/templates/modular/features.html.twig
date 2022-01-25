@@ -1,0 +1,31 @@
+<section class="works service-page">
+  <div class="container">
+    <h2 class="subtitle wow fadeInUp animated" data-wow-delay=".3s" data-wow-duration="500ms">{{ page.title }}</h2>
+    <p class="subtitle-des wow fadeInUp animated" data-wow-delay=".5s" data-wow-duration="500ms">
+      {{ page.header.description|raw }}
+    </p>
+    <div class="row">
+      {% for item in page.header.items %}
+      <div class="col-sm-3">
+        <figure class="wow fadeInLeft animated portfolio-item" data-wow-duration="500ms" data-wow-delay="{{ loop.index * 300 }}ms">
+          <div class="img-wrapper">
+            <img src="{{ page.media.images[item.thumb].cache.url() }}" class="img-responsive" alt="{{ item.alt }}" >
+            <div class="overlay">
+              <div class="buttons">
+                <a rel="gallery" class="fancybox" href="{{ page.media.images[item.image].cache.url() }}">{{ 'THEME.SITE.DEMO'|t }}</a>        
+                <a target="_blank" href="{{ item.url }}">{{ 'THEME.SITE.DETAIL'|t }}</a>
+              </div>
+            </div>
+          </div>
+          <figcaption>
+            <h4>
+              <a href="{{ item.url }}">{{ item.name }}</a>
+            </h4>
+            <p>{{ item.description|raw }}</p>
+          </figcaption>
+        </figure>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>

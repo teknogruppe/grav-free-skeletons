@@ -1,0 +1,18 @@
+extends@: default
+
+form:
+  fields:
+    tabs:
+      fields:
+        content:
+          fields:
+            header.style: 
+              type: toggle
+              label: THEME.ADMIN.STYLE
+              highlight: 1
+              options:
+                  left: THEME.ADMIN.LEFT
+                  right: THEME.ADMIN.RIGHT
+                  full: THEME.ADMIN.FULL
+              default: full
+

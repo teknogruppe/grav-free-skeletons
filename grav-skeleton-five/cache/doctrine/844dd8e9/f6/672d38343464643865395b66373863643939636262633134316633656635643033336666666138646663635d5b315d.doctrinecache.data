@@ -1,0 +1,132 @@
+1636867255
+a:2:{s:7:"content";s:6503:"<!--
+==================================================
+Portfolio Section Start
+================================================== -->
+<section id="works" class="works">
+  <div class="container">
+    <div class="section-heading">
+      <h1 class="title wow fadeInDown" data-wow-delay=".3s">Latest Works</h1>
+        <p class="wow fadeInDown" data-wow-delay=".5s">
+          Aliquam lobortis. Maecenas vestibulum mollis diam. Pellentesque auctor neque nec urna. Nulla sit amet est. Aenean posuere <br> tortor sed cursus feugiat, nunc augue blandit nunc, eu sollicitudin urna dolor sagittis lacus.
+        </p>
+    </div>
+
+    <div class="row">
+                  <div class="col-sm-4 col-xs-12">
+        <figure class="wow fadeInLeft animated portfolio-item" data-wow-duration="500ms" data-wow-delay="300ms">
+          <div class="img-wrapper">
+            <img src="/grav-skeleton-timer/images/0/e/5/5/c/0e55cc0cb1d4ffabc66367121c840bbaf287342e-item-3.jpg" class="img-responsive" alt="Table Design" >
+            <div class="overlay">
+              <div class="buttons">
+                <a rel="gallery" class="fancybox" href="/grav-skeleton-timer/images/0/e/5/5/c/0e55cc0cb1d4ffabc66367121c840bbaf287342e-item-3.jpg">Demo</a>
+                <a target="_blank" href="/grav-skeleton-timer/works/table-design">Details</a>
+              </div>
+            </div>
+          </div>
+          <figcaption>
+            <h4>
+              <a href="/grav-skeleton-timer/works/table-design">Table Design</a>
+            </h4>
+            <p>Lorem ipsum dolor sit amet.</p>
+          </figcaption>
+        </figure>
+      </div>
+            <div class="col-sm-4 col-xs-12">
+        <figure class="wow fadeInLeft animated portfolio-item" data-wow-duration="500ms" data-wow-delay="600ms">
+          <div class="img-wrapper">
+            <img src="/grav-skeleton-timer/images/a/3/4/d/0/a34d02a11ccf3e81662da31d8332f379ce044986-item-5.jpg" class="img-responsive" alt="Shoping Bag Concept" >
+            <div class="overlay">
+              <div class="buttons">
+                <a rel="gallery" class="fancybox" href="/grav-skeleton-timer/images/a/3/4/d/0/a34d02a11ccf3e81662da31d8332f379ce044986-item-5.jpg">Demo</a>
+                <a target="_blank" href="/grav-skeleton-timer/works/shopping-bag-concept">Details</a>
+              </div>
+            </div>
+          </div>
+          <figcaption>
+            <h4>
+              <a href="/grav-skeleton-timer/works/shopping-bag-concept">Shoping Bag Concept</a>
+            </h4>
+            <p>Lorem ipsum dolor.</p>
+          </figcaption>
+        </figure>
+      </div>
+            <div class="col-sm-4 col-xs-12">
+        <figure class="wow fadeInLeft animated portfolio-item" data-wow-duration="500ms" data-wow-delay="900ms">
+          <div class="img-wrapper">
+            <img src="/grav-skeleton-timer/images/0/6/7/e/f/067ef4d8827c4d3afb5a6dc35c2399a103e54816-item-4.jpg" class="img-responsive" alt="Make Up elements" >
+            <div class="overlay">
+              <div class="buttons">
+                <a rel="gallery" class="fancybox" href="/grav-skeleton-timer/images/0/6/7/e/f/067ef4d8827c4d3afb5a6dc35c2399a103e54816-item-4.jpg">Demo</a>
+                <a target="_blank" href="/grav-skeleton-timer/works/make-up">Details</a>
+              </div>
+            </div>
+          </div>
+          <figcaption>
+            <h4>
+              <a href="/grav-skeleton-timer/works/make-up">Make Up elements</a>
+            </h4>
+            <p>Lorem ipsum dolor.</p>
+          </figcaption>
+        </figure>
+      </div>
+            <div class="col-sm-4 col-xs-12">
+        <figure class="wow fadeInLeft animated portfolio-item" data-wow-duration="500ms" data-wow-delay="1200ms">
+          <div class="img-wrapper">
+            <img src="/grav-skeleton-timer/images/b/d/9/8/9/bd98957e2c53af38856d519d83628564ed6edc7f-item-1.jpg" class="img-responsive" alt="Dew Drop" >
+            <div class="overlay">
+              <div class="buttons">
+                <a rel="gallery" class="fancybox" href="/grav-skeleton-timer/images/b/d/9/8/9/bd98957e2c53af38856d519d83628564ed6edc7f-item-1.jpg">Demo</a>
+                <a target="_blank" href="/grav-skeleton-timer/works/dew-drop">Details</a>
+              </div>
+            </div>
+          </div>
+          <figcaption>
+            <h4>
+              <a href="/grav-skeleton-timer/works/dew-drop">Dew Drop</a>
+            </h4>
+            <p>Redesigne UI Concept</p>
+          </figcaption>
+        </figure>
+      </div>
+            <div class="col-sm-4 col-xs-12">
+        <figure class="wow fadeInLeft animated portfolio-item" data-wow-duration="500ms" data-wow-delay="1500ms">
+          <div class="img-wrapper">
+            <img src="/grav-skeleton-timer/images/4/6/7/6/e/4676e4c7344a3b5202b0f00893b18d90bdd0832d-item-6.jpg" class="img-responsive" alt="Caramel Bottle" >
+            <div class="overlay">
+              <div class="buttons">
+                <a rel="gallery" class="fancybox" href="/grav-skeleton-timer/images/4/6/7/6/e/4676e4c7344a3b5202b0f00893b18d90bdd0832d-item-6.jpg">Demo</a>
+                <a target="_blank" href="/grav-skeleton-timer/works/caramel-bottle">Details</a>
+              </div>
+            </div>
+          </div>
+          <figcaption>
+            <h4>
+              <a href="/grav-skeleton-timer/works/caramel-bottle">Caramel Bottle</a>
+            </h4>
+            <p>Lorem ipsum dolor.</p>
+          </figcaption>
+        </figure>
+      </div>
+            <div class="col-sm-4 col-xs-12">
+        <figure class="wow fadeInLeft animated portfolio-item" data-wow-duration="500ms" data-wow-delay="1800ms">
+          <div class="img-wrapper">
+            <img src="/grav-skeleton-timer/images/f/1/c/5/1/f1c518289b029d126c84e242cccf229de8c17719-item-2.jpg" class="img-responsive" alt="Bottle Mockup" >
+            <div class="overlay">
+              <div class="buttons">
+                <a rel="gallery" class="fancybox" href="/grav-skeleton-timer/images/f/1/c/5/1/f1c518289b029d126c84e242cccf229de8c17719-item-2.jpg">Demo</a>
+                <a target="_blank" href="/grav-skeleton-timer/works/bottle-mockup">Details</a>
+              </div>
+            </div>
+          </div>
+          <figcaption>
+            <h4>
+              <a href="/grav-skeleton-timer/works/bottle-mockup">Bottle Mockup</a>
+            </h4>
+            <p>Lorem ipsum dolor sit.</p>
+          </figcaption>
+        </figure>
+      </div>
+          </div>
+  </div>
+</section> <!-- #works -->";s:12:"content_meta";N;}
