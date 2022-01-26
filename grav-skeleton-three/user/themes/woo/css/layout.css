@@ -80,18 +80,22 @@ header .logo {
    float: left;
    width: auto; 
    z-index: 991; 
+   min-width: 150px;
 
    /* add position relative since z-index only applies to  
    elements that have been given an explicit position */
    position: relative; 
 }
 header .logo a {
+   color:#999;
+   font-size: 16px;
+   text-transform: uppercase;
+   font-weight: bold;
    display: block;
    margin: 0;
 	padding: 0;
 	border: none;
 	outline: none;
-   width: 64px;
    height: 18px;   
 }
 

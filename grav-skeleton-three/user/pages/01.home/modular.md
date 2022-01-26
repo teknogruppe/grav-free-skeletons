@@ -1,11 +1,9 @@
 ---
-title: Woo
-menu: Home
 onpage_menu: true
 body_class: index
 header_class: alt
 content:
-    items: @self.modular
+    items: '@self.modular'
     order:
         by: default
         dir: asc
@@ -14,6 +12,6 @@ content:
             - _hours
             - _location
             - _contact
+published: true
 ---
-
 

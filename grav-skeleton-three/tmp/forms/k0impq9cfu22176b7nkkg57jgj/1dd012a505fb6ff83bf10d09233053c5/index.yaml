@@ -1,0 +1,99 @@
+form: flex-pages
+unique_id: 1dd012a505fb6ff83bf10d09233053c5
+url: 'http://localhost/grav/grav-free-skeletons/grav-skeleton-three/admin/pages/home/_contact'
+user:
+  username: admin
+  email: pezland@yahoo.com
+timestamps:
+  created: 1643213814
+  updated: 1643213814
+data:
+  header:
+    title: 'Contact Us'
+    media_order: null
+    body_classes: null
+    order_by: null
+    order_manual: null
+    testimonials:
+      -
+        title: 'Steve Jobs'
+        quote: 'Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work. And the only way to do great work is to love what you do. If you haven''t found it yet, keep looking. Don''t settle. As with all matters of the heart, you''ll know when you find it.'
+      -
+        title: 'Mr. Adobe'
+        quote: 'This is Photoshop''s version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.'
+    published: null
+    date: null
+    publish_date: null
+    unpublish_date: null
+    metadata: null
+    taxonomy: null
+    dateformat: null
+    menu: null
+    slug: null
+    redirect: null
+    process: null
+    twig_first: null
+    never_cache_twig: null
+    child_type: null
+    routable: null
+    cache_enable: null
+    visible: null
+    debugger: null
+    template: null
+    append_url_extension: null
+    redirect_default_route: null
+    routes:
+      default: null
+      canonical: null
+      aliases: null
+    admin:
+      children_display_order: null
+    login:
+      visibility_requires_access: null
+    access: null
+    permissions:
+      inherit: null
+      authors: null
+      groups: null
+  content: "## Contact Us\n\nA omnis voluptates sint laboriosam ut numquam qui. Modi tempora qui ut enim. Necessitatibus earum autem cum omnis nobis. Nostrum odio quis id dolorem. Perspiciatis at rerum sint qui recusandae rerum id. Nostrum corrupti alias quibusdam atque."
+  folder: _contact
+  route: /
+  name: modular/contact
+  ordering: false
+  order: null
+  blueprint: null
+  lang: null
+  xss_check: null
+  value: null
+  _post_entries_save: null
+files: {  }
+object:
+  type: pages
+  key: home/_contact
+  storage_key: 01.home/_contact
+  timestamp: 1643212346
+  serialized:
+    __META:
+      key: home/_contact
+      storage_key: 01.home/_contact
+      template: contact
+      storage_timestamp: 1643212346
+      markdown:
+        '': { contact: 1643212346 }
+      checksum: 2edb0b2e3747ac710afa4858c62e6563
+    storage_key: 01.home/_contact
+    parent_key: 01.home
+    order: false
+    folder: _contact
+    template: contact
+    lang: ''
+    header:
+      testimonials:
+        - { title: 'Steve Jobs', quote: 'Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work. And the only way to do great work is to love what you do. If you haven''t found it yet, keep looking. Don''t settle. As with all matters of the heart, you''ll know when you find it.' }
+        - { title: 'Mr. Adobe', quote: 'This is Photoshop''s version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.' }
+      title: 'Contact Us'
+    root: false
+    frontmatter: "testimonials:\n    -\n        title: 'Steve Jobs'\n        quote: 'Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work. And the only way to do great work is to love what you do. If you haven''t found it yet, keep looking. Don''t settle. As with all matters of the heart, you''ll know when you find it.'\n    -\n        title: 'Mr. Adobe'\n        quote: 'This is Photoshop''s version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.'\ntitle: 'Contact Us'"
+    markdown: "## Contact Us\n\nA omnis voluptates sint laboriosam ut numquam qui. Modi tempora qui ut enim. Necessitatibus earum autem cum omnis nobis. Nostrum odio quis id dolorem. Perspiciatis at rerum sint qui recusandae rerum id. Nostrum corrupti alias quibusdam atque."
+    slug: _contact
+    name: contact.md
