@@ -1,10 +1,16 @@
 <header id="info">
     <div class="container">
         <div class="intro-text">
-            {{ content|raw }}
-            {% for button in page.header.buttons %}
-                <a class="page-scroll btn btn-xl" href="{{ button.url }}">{{ button.text }}</a>
-            {% endfor %}
+            <div class="welcome">
+                {{ content|raw }}
+            </div>
+            {% if page.header.buttons %}
+            <div class="intro-content">
+                {% for button in page.header.buttons %}
+                    <a class="page-scroll btn btn-xl" href="{{ button.url }}">{{ button.text }}</a>
+                {% endfor %}
+            </div>
+            {% endif %}
         </div>
     </div>
 </header>
