@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'C:/wamp64/www/grav/grav-free-skeletons/grav-skeleton-one/user/config/system.yaml',
-    'modified' => 1643161481,
+    'modified' => 1643210165,
     'data' => [
         'home' => [
             'alias' => '/home'
@@ -11,7 +11,7 @@ return [
             'theme' => 'agency',
             'process' => [
                 'markdown' => true,
-                'twig' => false
+                'twig' => true
             ],
             'markdown' => [
                 'extra' => true

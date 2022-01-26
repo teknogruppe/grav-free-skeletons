@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1643161671,
-    'checksum' => '32e180f3b90309132dab7687e4593409',
+    'timestamp' => 1643210273,
+    'checksum' => '3dbbbced6750ffa812742a604e838fe5',
     'files' => [
         'user/localhost/config' => [
             'backups' => [
@@ -45,11 +45,11 @@ return [
             ],
             'site' => [
                 'file' => 'user/config/site.yaml',
-                'modified' => 1643161481
+                'modified' => 1643210268
             ],
             'system' => [
                 'file' => 'user/config/system.yaml',
-                'modified' => 1643161481
+                'modified' => 1643210165
             ],
             'versions' => [
                 'file' => 'user/config/versions.yaml',
@@ -3830,7 +3830,7 @@ node_modules',
                 ],
                 1 => [
                     'title' => 'facebook',
-                    'url' => NULL
+                    'url' => 'http://facebook.com'
                 ],
                 2 => [
                     'title' => 'stack-overflow',
