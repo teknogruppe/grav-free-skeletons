@@ -10,13 +10,10 @@ content:
         by: default
         dir: asc
         custom:
-            - _showcase
-            - _features
-            - _pricing
-            - _callout
-            - _screenshots
-            - _testimonials
-            - _subscribe
+            - _info_
+            - _hours
+            - _location
+            - _contact
 ---
 
 

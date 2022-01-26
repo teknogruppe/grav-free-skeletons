@@ -10,7 +10,7 @@ content:
         custom:
             - _header
             - _hours
-            - _bulletin
-            - _clients
+            - _location
+            - _contact
 ---
 

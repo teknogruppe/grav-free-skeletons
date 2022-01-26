@@ -6,7 +6,7 @@ metadata:
     description: 'Woo is a free and responsive theme for **Grav**. Its a port of Woo template by Styleshout.'
     
 # Site settings
-title: Awesome Title
+title: Your Church
 email: your-email@domain.com
 description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
 
@@ -15,22 +15,18 @@ social:
   -  url: "#"
      icon: facebook
   -  url: "#"
-     icon: twitter
-  -  url: "#"
-     icon: google-plus  
+     icon: gettr
 
 # Main Menu
 menu:
-  - text: Features
-    link: "#features"
-  - text: Pricing
-    link: "#pricing"
-  - text: Screenshots
-    link: "#screenshots"
-  - text: Testimonials
-    link: "#testimonials"
-  - text: Subscribe
-    link: "#subscribe"    
+  - text: Info
+    link: "#info"
+  - text: Hours
+    link: "#hours"
+  - text: Location
+    link: "#location"
+  - text: Contact
+    link: "#contact"
 
 footer: 
   text: "This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris."

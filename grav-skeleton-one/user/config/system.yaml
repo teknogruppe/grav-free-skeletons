@@ -5,6 +5,6 @@ pages:
   theme: agency
   process:
     markdown: true
-    twig: false
+    twig: true
   markdown:
     extra: true  
