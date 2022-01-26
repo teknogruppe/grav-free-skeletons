@@ -47,6 +47,16 @@ body { background: #181d21; }
    opacity: 0;
 }
 
+section h2 {
+   color: rgb(139, 139, 139);
+   font-size: 40px;
+}
+
+section {
+   min-height: 30vh;
+   padding: 5em 0;
+}
+
 
 /* ------------------------------------------------------------------ */
 /* b. Header Styles
@@ -101,6 +111,10 @@ header .header-social li {
 }
 header .header-social li a { color: #fff; }
 header .header-social li a:hover { color: #11ABB0; }
+
+#content {
+   margin-top: 5em;
+}
 
 /* primary navigation
 --------------------------------------------------------------------- */

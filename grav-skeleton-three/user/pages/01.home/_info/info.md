@@ -1,9 +1,11 @@
 ---
-title: Get Hosting.
-buttons: 
-  - text: Sign Up Now
-    url: http://www.dreamhost.com/r.cgi?287326|STYLESHOUT            
+title: Info
+buttons:
+    -
+        text: 'Sign Up Now'
+        url: 'http://www.dreamhost.com/r.cgi?287326|STYLESHOUT'
 ---
-##[Host This Template on Dreamhost.](http://www.dreamhost.com/r.cgi?287326|STYLESHOUT)
-Looking for an awesome and reliable webhosting? Try [DreamHost](http://www.dreamhost.com/r.cgi?287326|STYLESHOUT).
-Get <span>$50 off</span> when you sign up with the promocode <span>STYLESHOUT</span>. 
+
+## Info
+
+A omnis voluptates sint laboriosam ut numquam qui. Modi tempora qui ut enim. Necessitatibus earum autem cum omnis nobis. Nostrum odio quis id dolorem. Perspiciatis at rerum sint qui recusandae rerum id. Nostrum corrupti alias quibusdam atque.
