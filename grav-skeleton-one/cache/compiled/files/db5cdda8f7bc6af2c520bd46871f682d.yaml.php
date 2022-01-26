@@ -1,7 +1,7 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
-    'filename' => 'plugins://admin/admin.yaml',
+    'filename' => 'C:/wamp64/www/grav/grav-free-skeletons/grav-skeleton-one/user/plugins/admin/admin.yaml',
     'modified' => 1643161481,
     'data' => [
         'enabled' => true,

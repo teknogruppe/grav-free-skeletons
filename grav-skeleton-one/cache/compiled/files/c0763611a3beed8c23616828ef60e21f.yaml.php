@@ -1,13 +1,10 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
-    'filename' => 'themes://agency/agency.yaml',
+    'filename' => 'C:/wamp64/www/grav/grav-free-skeletons/grav-skeleton-one/user/plugins/problems/problems.yaml',
     'modified' => 1643161482,
     'data' => [
         'enabled' => true,
-        'color' => 'blue',
-        'dropdown' => [
-            'enabled' => false
-        ]
+        'built_in_css' => true
     ]
 ];

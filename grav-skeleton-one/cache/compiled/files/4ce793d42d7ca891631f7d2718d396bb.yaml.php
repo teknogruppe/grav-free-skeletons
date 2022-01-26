@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
-    'filename' => 'themes://agency/agency.yaml',
-    'modified' => 1643161482,
+    'filename' => 'C:/wamp64/www/grav/grav-free-skeletons/grav-skeleton-one/user/localhost/config/themes/agency.yaml',
+    'modified' => 1643161481,
     'data' => [
         'enabled' => true,
         'color' => 'blue',
